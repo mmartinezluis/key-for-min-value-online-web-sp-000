@@ -9,7 +9,5 @@ def key_for_min_value(name_hash)
     ordered_values= values_array.sort {|a,b| a<=>b}
     main_value= ordered_values[0]
   end
-
-
-
+  name_hash.key(main_value)
 end
